@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+.wrap{
+    width: 1600px;
+    margin: auto;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+}
+
+.nav {
+    line-height: 60px;
+}
+
+.nav a {
+    color: black;
+    font-size: 24px;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav ul {
+    display: flex;
+    width: 60%;
+}
+
+.nav ul li {
+    flex: 1;
+}
+
+.nav h1 {
+    width: 270px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+}
+
+.nav h1 a {
+    background: url(http://www.nfa.go.kr/nfa/common/images/common/logo.jpg)no-repeat;
+    background-size: contain;
+    text-indent: -999px;
+    width: 187px;
+    height: 40px;
+}
+h2{text-align: left;font-size: 30px;padding: 10px 0 10px 100px;
+  background: #046fd9;color: #ffff}
+.container{border: 1px solid #000;}
+.boximg{display: flex;justify-content:flex-start}
+figure{margin: 0}
+figure img{width: 50%}
